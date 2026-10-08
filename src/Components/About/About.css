@@ -1,0 +1,98 @@
+/* abouct section */
+.about {
+  background: #f5f5f5;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  padding-top: 40px;
+}
+.about-text {
+  width: 50%;
+  padding: 50px;
+  margin-top: 60px;
+}
+.about-text h3 {
+  color: blue;
+  font-size: 29px;
+  margin-bottom: 10px;
+}
+.about-text p {
+  font-size: 19px;
+  color: rgb(73, 70, 70);
+  margin-bottom: 20px;
+}
+.about-text button {
+  padding: 15px;
+  background-color: blue;
+  border: none;
+  color: whitesmoke;
+  border-radius: 30px;
+}
+.about-text button:hover {
+  background-color: darkgreen;
+  color: black;
+}
+.img img {
+  width: 100%;
+  height: 70vh;
+
+  border-radius: 50%;
+}
+
+/* ABOUT RESPONSIVENESS*/
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    padding: 60px 7%;
+    gap: 35px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-text h2 {
+    font-size: 36px;
+  }
+
+  .about-text p {
+    font-size: 17px;
+  }
+
+  .about-image {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 50px 6%;
+    gap: 25px;
+  }
+
+  .about-text h3 {
+    font-size: 14px;
+  }
+
+  .about-text h2 {
+    font-size: 30px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .about-text ul {
+    padding-bottom: 20px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .about-text .btn {
+    padding: 12px 25px;
+  }
+}
