@@ -97,7 +97,7 @@ function Services() {
               fontSize: "1.05rem",
             }}
           >
-            I provide a range of digital and technology services designed to
+            I teach a range of digital skills designed to
             help individuals, students, businesses, and organizations achieve
             their goals.
           </Typography>
@@ -218,8 +218,8 @@ function Services() {
             }}
           >
             Whether you need a website, graphic design, data analysis,
-            digital marketing, or other technology services, I am ready to
-            help bring your ideas to life.
+            digital marketing, or other technology skills, I am ready to
+            help you achieve your dreams.
           </Typography>
 
           <Button
